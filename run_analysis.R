@@ -59,4 +59,4 @@ tidytab <- data %>%
   summarize_all(.fun = mean, .vars = as.numeric(3:68)) %>%
   print
   
-write.csv(tidytab, "tidy_UCI_HAR.csv")
+write.table(tidytab, "tidy_UCI_HAR.csv", row.names = F)
