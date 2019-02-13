@@ -2,7 +2,7 @@
 
 The original dataset can be found here: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
-Within the above dataset, the files used by the run_analysis.R script is as follows:
+Within the above dataset, the files used by the run_analysis.R script is as follows:  
 ./UCI HAR Dataset/test/X_test.txt - containing 561 test variables and 2947 observations  
 ./UCI HAR Dataset/train/X_train.txt - containing 561 test variables and 7352 observations  
 ./UCI HAR Dataset/train/y_train.txt - containing 1 training variable (1-5) corresponding to features.txt and 7352 observations; pairs with X_train.txt  
